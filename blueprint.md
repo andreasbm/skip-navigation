@@ -1,5 +1,3 @@
-# skip-navigation
-
 {{ template:title }}
 {{ template:description }}
 
@@ -30,14 +28,8 @@ $ npm i skip-navigation
 </html>
 ```
 
-## `<skip-button>`
-
 {{ doc:src/skip-button.ts }}
-
-## `<skip-anchor>`
-
 {{ doc:src/skip-anchor.ts }}
-
 {{ template:contributors }}
 {{ template:license }}
 

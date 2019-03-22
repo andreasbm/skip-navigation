@@ -1,8 +1,3 @@
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#skip-navigation)
-
-# ➤ skip-navigation
-
 <h1 align="center">skip-navigation</h1>
 <p align="center">
   <b>Web component friendly skip navigation functionality.</b></br>
@@ -48,11 +43,6 @@ $ npm i skip-navigation
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#skip-button)
 
-## ➤ `<skip-button>`
-
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#skip-button)
-
 ## ➤ skip-button
 
 Button that skips to an anchor.
@@ -81,18 +71,11 @@ Button that skips to an anchor.
 |      | Text to the user. Defaults to "Skip to main content" |
 
 
-
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#skip-anchor)
-
-## ➤ `<skip-anchor>`
-
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#skip-anchor)
 
 ## ➤ skip-anchor
 
 Anchor that the skip button can skip to.
-
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
