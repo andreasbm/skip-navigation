@@ -1,0 +1,7 @@
+{
+	"demo": "https://appnest-demo.firebaseapp.com/skip-navigation/",
+	"ids": {
+		"github": "andreasbm/skip-navigation",
+		"npm": "@appnest/skip-navigation"
+	}
+}

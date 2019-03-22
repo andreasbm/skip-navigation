@@ -1,7 +1,14 @@
 <h1 align="center">skip-navigation</h1>
 <p align="center">
+		<a href="https://npmcharts.com/compare/@appnest/skip-navigation?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@appnest/skip-navigation.svg" height="20"/></a>
+<a href="https://www.npmjs.com/package/@appnest/skip-navigation"><img alt="NPM Version" src="https://img.shields.io/npm/v/@appnest/skip-navigation.svg" height="20"/></a>
+<a href="https://david-dm.org/andreasbm/skip-navigation"><img alt="Dependencies" src="https://img.shields.io/david/andreasbm/skip-navigation.svg" height="20"/></a>
+<a href="https://github.com/andreasbm/skip-navigation/graphs/contributors"><img alt="Contributors" src="https://img.shields.io/github/contributors/andreasbm/skip-navigation.svg" height="20"/></a>
+	</p>
+
+<p align="center">
   <b>Web component friendly skip navigation functionality.</b></br>
-  <sub><sub>
+  <sub> Go here to see a demo <a href="https://appnest-demo.firebaseapp.com/skip-navigation/">https://appnest-demo.firebaseapp.com/skip-navigation/</a>.<sub>
 </p>
 
 <br />
@@ -13,7 +20,7 @@
 ## ➤ Installation
 
 ```
-$ npm i skip-navigation
+$ npm i @appnest/skip-navigation
 ```
 
 
@@ -54,9 +61,9 @@ Button that skips to an anchor.
 
 ### Attributes
 
-| Attribute | Type  | Description                                      |
-|-----------|-------|--------------------------------------------------|
-| `for`     | `any` | ID of the anchor that should be navigated to. Optional. |
+| Attribute      | Type  | Description                                      |
+|----------------|-------|--------------------------------------------------|
+| `for {String}` | `any` | ID of the anchor that should be navigated to. Optional. |
 
 ### CSS Custom Properties
 
@@ -81,6 +88,12 @@ Button that skips to an anchor.
 ## ➤ skip-anchor
 
 Anchor that the skip button can skip to.
+
+### Attributes
+
+| Attribute     | Type  | Description                                      |
+|---------------|-------|--------------------------------------------------|
+| `id {String}` | `any` | Optiona ID that should be associated with the anchor when using the skip-button for attribute. |
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)

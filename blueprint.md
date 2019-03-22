@@ -1,10 +1,11 @@
 {{ template:title }}
+{{ template:badges }}
 {{ template:description }}
 
 ## Installation
 
 ```
-$ npm i skip-navigation
+$ npm i @appnest/skip-navigation
 ```
 
 ## Usage

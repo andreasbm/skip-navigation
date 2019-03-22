@@ -2,6 +2,7 @@ import { setAnchor, removeAnchor } from "./util";
 
 /**
  * Anchor that the skip button can skip to.
+ * @attr id {String} - Optiona ID that should be associated with the anchor when using the skip-button for attribute.
  */
 export class SkipAnchor extends HTMLElement {
 
