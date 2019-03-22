@@ -13,7 +13,7 @@ template.innerHTML = `
 /**
  * Button that skips to an anchor.
  * @slot - Text to the user. Defaults to "Skip to main content"
- * @attr for {String} - ID of the anchor that should be navigated to. Optional.
+ * @attr for - ID of the anchor that should be navigated to. Optional.
  * @cssprop --skip-button-bg - Background.
  * @cssprop --skip-button-color - Foreground.
  * @cssprop --skip-button-padding - Padding.

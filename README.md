@@ -46,13 +46,6 @@ $ npm i @appnest/skip-navigation
 ```
 
 
-[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#motivation)
-
-## ➤ Motivation
-
-Without being able to bypass long lists of links, some users are at a huge disadvantage. A user should never be required to perform any action perhaps 200s of times before reaching the main content. Sighted users have a built-in "skip navigation" mechanism: their eyes so why not give one to keyboard users? A "skip navigation" link is a link at the top of the page which jumps the user down to an anchor or target at the beginning of the main content. The most accessible method for visually hiding "skip navigation" links is to hide them off screen, then cause them to be positioned on screen when they receive keyboard focus.
-
-
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#skip-button)
 
 ## ➤ skip-button
@@ -61,9 +54,9 @@ Button that skips to an anchor.
 
 ### Attributes
 
-| Attribute      | Type  | Description                                      |
-|----------------|-------|--------------------------------------------------|
-| `for {String}` | `any` | ID of the anchor that should be navigated to. Optional. |
+| Attribute | Type  | Description                                      |
+|-----------|-------|--------------------------------------------------|
+| `for`     | `any` | ID of the anchor that should be navigated to. Optional. |
 
 ### CSS Custom Properties
 
@@ -91,9 +84,17 @@ Anchor that the skip button can skip to.
 
 ### Attributes
 
-| Attribute     | Type  | Description                                      |
-|---------------|-------|--------------------------------------------------|
-| `id {String}` | `any` | Optiona ID that should be associated with the anchor when using the skip-button for attribute. |
+| Attribute | Type  | Description                                      |
+|-----------|-------|--------------------------------------------------|
+| `id`      | `any` | Optional ID that should be associated with the anchor when using the skip-button for attribute. |
+
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#motivation)
+
+## ➤ Motivation
+
+Without being able to bypass long lists of links, some users are at a huge disadvantage. A user should never be required to perform any action perhaps 200s of times before reaching the main content. Sighted users have a built-in "skip navigation" mechanism: their eyes so why not give one to keyboard users? A "skip navigation" link is a link at the top of the page which jumps the user down to an anchor or target at the beginning of the main content. The most accessible method for visually hiding "skip navigation" links is to hide them off screen, then cause them to be positioned on screen when they receive keyboard focus.
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#contributors)
