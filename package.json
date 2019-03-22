@@ -1,5 +1,6 @@
 {
 	"name": "skip-navigation",
+	"description": "Web component friendly skip navigation functionality.",
 	"scripts": {
 		"b:dev": "rollup -c rollup.config.ts --environment NODE_ENV:dev",
 		"b:prod": "rollup -c rollup.config.ts --environment NODE_ENV:prod",
