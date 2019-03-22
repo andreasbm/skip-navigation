@@ -1,0 +1,31 @@
+{
+	"name": "skip-navigation",
+	"scripts": {
+		"b:dev": "rollup -c rollup.config.ts --environment NODE_ENV:dev",
+		"b:prod": "rollup -c rollup.config.ts --environment NODE_ENV:prod",
+		"s:dev": "rollup -c rollup.config.ts --watch --environment NODE_ENV:dev",
+		"s:prod": "rollup -c rollup.config.ts --watch --environment NODE_ENV:prod",
+		"s": "npm run s:dev",
+		"test": "karma start karma.conf.js",
+		"readme": "readme generate"
+	},
+	"devDependencies": {
+		"@appnest/web-config": "^0.4.10"
+	},
+	"dependencies": {
+		"@appnest/readme": "^1.2.3"
+	},
+	"contributors": [
+		{
+			"name": "Andreas Mehlsen",
+			"url": "https://twitter.com/andreasmehlsen",
+			"img": "https://avatars1.githubusercontent.com/u/6267397?s=460&v=4"
+		},
+		{
+			"name": "You?",
+			"img": "https://joeschmoe.io/api/v1/random",
+			"url": "https://github.com/andreasbm/weightless/blob/master/CONTRIBUTING.md"
+		}
+	],
+	"license": "MIT"
+}
