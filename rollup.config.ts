@@ -47,7 +47,6 @@ export default {
 				]
 			},
 			htmlTemplateConfig: {
-				
 				template: files.src_index,
 				target: files.dist_index,
 				include: /main(-.*)?\.js$/
