@@ -66,15 +66,17 @@
 	<a href="#">Irrelevant link 50</a>
 
 	<main>
-			<skip-anchor></skip-anchor>
 			<p>Without being able to bypass long lists of links, some users are at a huge disadvantage. A user should never be required to perform any action perhaps 200s of times before reaching the main content. Sighted users have a built-in "skip navigation" mechanism: their eyes so why not give one to keyboard users? A "skip navigation" link is a link at the top of the page which jumps the user down to an anchor or target at the beginning of the main content. <b>Try to use your tab key and see what happens.</b> The most accessible method for visually hiding "skip navigation" links is to hide them off screen, then cause them to be positioned on screen when they receive keyboard focus.</p>
 
 			<p>To give you a feeling of how important it is, pointer events have been disabled for this site. Use the <code>Tab</code> key on your keyboard to navigate instead.</p>
 
+			<skip-anchor></skip-anchor>
 			<button>Important button</button>
+
 			<skip-button for="anchor2" style="--skip-button-bg: orange;">Skip irrelevant buttons</skip-button>
 			<button>Irrelevant button</button>
 			<button>Another irrelevant button</button>
+
 			<skip-anchor id="anchor2"></skip-anchor>
 			<button>Another important button</button>
 	</main>

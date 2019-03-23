@@ -1,0 +1,20 @@
+{
+	"extends": "./node_modules/@appnest/web-config/tsconfig.json",
+	"compilerOptions": {
+		"module": "esnext",
+		"emitDecoratorMetadata": true,
+		"declaration": true,
+		"target": "esnext",
+		"importHelpers": false,
+		"lib": [
+			"es2015.promise",
+			"dom",
+			"es7",
+			"es6",
+			"es2017",
+			"es2017.object",
+			"es2015.proxy",
+			"esnext"
+		]
+	}
+}

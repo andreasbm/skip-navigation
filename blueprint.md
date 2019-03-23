@@ -2,10 +2,14 @@
 {{ template:badges }}
 {{ template:description }}
 
+<p align="center">
+	<img src="https://raw.githubusercontent.com/andreasbm/skip-navigation/master/example.gif" width="600">
+</p>
+
 ## Installation
 
 ```
-$ npm i @appnest/skip-navigation
+$ npm i {{ ids.npm }}
 ```
 
 ## Usage

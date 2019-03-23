@@ -1,6 +1,32 @@
 {
-	"name": "skip-navigation",
+	"name": "@a11y/skip-navigation",
 	"description": "Web component friendly skip navigation functionality.",
+	"types": "index.d.ts",
+	"module": "index.js",
+	"main": "index.js",
+	"author": "Andreas Mehlsen",
+	"bugs": {
+		"url": "https://github.com/andreasbm/skip-navigation/issues"
+	},
+	"homepage": "https://github.com/andreasbm/skip-navigation#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/andreasbm/skip-navigation.git"
+	},
+	"keywords": [
+		"web",
+		"accessibility",
+		"accessible",
+		"a11y",
+		"skip",
+		"navigation",
+		"focus",
+		"components",
+		"custom",
+		"elements",
+		"component",
+		"element"
+	],
 	"scripts": {
 		"b:dev": "rollup -c rollup.config.ts --environment NODE_ENV:dev",
 		"b:prod": "rollup -c rollup.config.ts --environment NODE_ENV:prod",
@@ -8,7 +34,12 @@
 		"s:prod": "rollup -c rollup.config.ts --watch --environment NODE_ENV:prod",
 		"s": "npm run s:dev",
 		"test": "karma start karma.conf.js",
-		"readme": "readme generate"
+		"readme": "readme generate",
+		"b:lib": "rollup -c rollup.config.build.ts",
+		"postversion": "npm run readme && npm run b:lib",
+		"publish:patch": "np patch --contents=dist --no-cleanup",
+		"publish:minor": "np minor --contents=dist --no-cleanup",
+		"publish:major": "np major --contents=dist --no-cleanup"
 	},
 	"devDependencies": {
 		"@appnest/web-config": "^0.4.10"

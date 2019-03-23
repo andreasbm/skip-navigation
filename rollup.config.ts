@@ -10,8 +10,8 @@ import {
 
 const folders = {
 	dist: resolve(__dirname, "dist"),
-	src: resolve(__dirname, "src"),
-	src_assets: resolve(__dirname, "src/assets"),
+	src: resolve(__dirname, "src/demo"),
+	src_assets: resolve(__dirname, "src/demo/assets"),
 	dist_assets: resolve(__dirname, "dist/assets")
 };
 
