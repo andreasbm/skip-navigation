@@ -13,7 +13,7 @@ button {
 	font-size: var(--skip-button-font-size, 18px);
 	border-radius: var(--skip-button-border-radius, 0 0 12px);
 	transition: var(--skip-button-transition, transform 200ms ease, opacity 200ms ease);
-	transform: translateY(-100%);//-150%);
+	transform: translateY(-100%);
 	border: none;
 	appearance: none;
 	outline: none;
