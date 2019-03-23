@@ -14,6 +14,10 @@
 <br />
 
 
+<p align="center">
+	<img src="https://raw.githubusercontent.com/andreasbm/skip-navigation/master/example.gif" width="600">
+</p>
+
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#installation)
 
