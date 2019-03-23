@@ -34,7 +34,6 @@
 		"s:dev": "rollup -c rollup.config.ts --watch --environment NODE_ENV:dev",
 		"s:prod": "rollup -c rollup.config.ts --watch --environment NODE_ENV:prod",
 		"s": "npm run s:dev",
-		"test": "karma start karma.conf.js",
 		"readme": "readme generate",
 		"b:lib": "rollup -c rollup.config.build.ts",
 		"postversion": "npm run readme && npm run b:lib",
