@@ -1,6 +1,7 @@
 :host {
 	position: fixed;
 	pointer-events: none;
+	z-index: 123456789;
 	left: 0;
 	top: 0;
 }
@@ -22,7 +23,6 @@ button {
 	&:focus {
 		transform: translateY(0);
 		pointer-events: all;
-		z-index: 123456789;
 	}
 
 	&::-moz-focus-inner {
