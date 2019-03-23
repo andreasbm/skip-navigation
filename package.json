@@ -6,6 +6,7 @@
 	"module": "index.js",
 	"main": "index.js",
 	"author": "Andreas Mehlsen",
+	"private": false,
 	"bugs": {
 		"url": "https://github.com/andreasbm/skip-navigation/issues"
 	},
