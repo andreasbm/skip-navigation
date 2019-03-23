@@ -1,22 +1,31 @@
+:host {
+	position: fixed;
+	pointer-events: none;
+	left: 0;
+	top: 0;
+}
+
 button {
 	background: var(--skip-button-bg, #1e88e5);
 	color: var(--skip-button-color, #ffffff);
 	padding: var(--skip-button-padding, 18px);
 	font-size: var(--skip-button-font-size, 18px);
 	border-radius: var(--skip-button-border-radius, 0 0 12px);
-	transition: var(--skip-button-transition, transform 180ms ease);
-	position: fixed;
+	transition: var(--skip-button-transition, transform 200ms ease);
+	transform: translateY(-100%);//-150%);
 	border: none;
-	transform: translateY(-100%);
-	left: 0;
-	top: 0;
 	appearance: none;
 	outline: none;
-	pointer-events: none;
-}
+	cursor: pointer;
+	margin: 0;
 
-button:focus {
-	transform: translateY(0);
-	pointer-events: all;
-	z-index: 123456789;
+	&:focus {
+		transform: translateY(0);
+		pointer-events: all;
+		z-index: 123456789;
+	}
+
+	&::-moz-focus-inner {
+		border: 0;
+	}
 }

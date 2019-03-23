@@ -10,6 +10,8 @@ $ npm i @appnest/skip-navigation
 
 ## Usage
 
+Here's an example on how to use this library. After you have imported it you can use the `<skip-button>` and `<skip-anchor` tags. The `skip-button` element presents a skip button to the user when it is focused. The `skip-anchor` element defines where to the focus should be set when the skip button is used.
+
 ```html
 <!DOCTYPE html>
 <html>
@@ -23,6 +25,32 @@ $ npm i @appnest/skip-navigation
     <skip-anchor></skip-anchor>
 
     <!-- Main content -->
+  </body>
+</html>
+```
+
+If you want to have multiple `skip-button` you can set an `id` on the `skip-anchor` and use the `for` attribute on the `skip-button` like this.
+
+```html
+<!DOCTYPE html>
+<html>
+  <body>
+
+    <!-- When this skip button is pressed the focus is shifted to the anchor with the maincontent ID -->
+    <skip-button for="maincontent">Skip to main content</skip-button>
+    <skip-anchor id="navigation"></skip-anchor>
+
+    <a href="#">Irrelevant link 1</a>
+    <a href="#">Irrelevant link 2</a>
+
+    <!-- More irrelevant links.. -->
+
+    <skip-anchor id="maincontent"></skip-anchor>
+
+    <!-- Main content -->
+
+    <!-- When this skip button is pressed the focus is shifted to the anchor with the navigation ID -->
+    <skip-button for="navigation">Skip to navigation</skip-button>
   </body>
 </html>
 ```
