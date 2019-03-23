@@ -29,7 +29,7 @@ Here's an example on how to use this library. After you have imported it you can
 </html>
 ```
 
-If you want to have multiple `skip-button` you can set an `id` on the `skip-anchor` and use the `for` attribute on the `skip-button` like this.
+If you want to have multiple `skip-button` elements you can set an `id` on the `skip-anchor` and use the `for` attribute on the `skip-button` like this.
 
 ```html
 <!DOCTYPE html>
@@ -54,6 +54,10 @@ If you want to have multiple `skip-button` you can set an `id` on the `skip-anch
   </body>
 </html>
 ```
+
+## Documentation
+
+This section documents the `attributes`, `css variables` and `slots` of the web components this library exposes.
 
 {{ doc:src/skip-button.ts }}
 {{ doc:src/skip-anchor.ts }}
