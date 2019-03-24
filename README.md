@@ -85,6 +85,47 @@ If you want to have multiple `skip-button` elements you can set an `id` on the `
 This section documents the `attributes`, `css variables` and `slots` of the web components this library exposes.
 
 
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#skip-button)
+
+## ➤ skip-button
+
+Button that skips to an anchor.
+
+### Attributes
+
+| Attribute | Type     | Description                                      |
+|-----------|----------|--------------------------------------------------|
+| `for`     | `string` | ID of the anchor that should be navigated to. Optional. |
+
+### CSS Custom Properties
+
+| Property                      | Description    |
+|-------------------------------|----------------|
+| `--skip-button-bg`            | Background.    |
+| `--skip-button-border-radius` | Border radius. |
+| `--skip-button-color`         | Foreground.    |
+| `--skip-button-font-size`     | Font size.     |
+| `--skip-button-padding`       | Padding.       |
+| `--skip-button-transition`    | Transition.    |
+
+### Slots
+
+| Name | Description                                      |
+|------|--------------------------------------------------|
+|      | Text to the user. Defaults to "Skip to main content" |
+
+
+[![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#skip-anchor)
+
+## ➤ skip-anchor
+
+Anchor that the skip button can skip to.
+
+### Attributes
+
+| Attribute | Type     | Description                                      |
+|-----------|----------|--------------------------------------------------|
+| `id`      | `string` | Optional ID that should be associated with the anchor when using the skip-button for attribute. |
 
 
 

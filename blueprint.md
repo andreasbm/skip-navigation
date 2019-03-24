@@ -63,8 +63,8 @@ If you want to have multiple `skip-button` elements you can set an `id` on the `
 
 This section documents the `attributes`, `css variables` and `slots` of the web components this library exposes.
 
-{{ doc:src/skip-button.ts }}
-{{ doc:src/skip-anchor.ts }}
+{{ doc:src/lib/skip-button.ts }}
+{{ doc:src/lib/skip-anchor.ts }}
 
 ## Motivation
 
