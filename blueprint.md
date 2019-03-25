@@ -70,6 +70,8 @@ This section documents the `attributes`, `css variables` and `slots` of the web 
 
 Without being able to bypass long lists of links, some users are at a huge disadvantage. A user should never be required to perform any action perhaps 200s of times before reaching the main content. Sighted users have a built-in "skip navigation" mechanism: their eyes so why not give one to keyboard users? A "skip navigation" link is a link at the top of the page which jumps the user down to an anchor or target at the beginning of the main content. The most accessible method for visually hiding "skip navigation" links is to hide them off screen, then cause them to be positioned on screen when they receive keyboard focus.
 
+Read more [here](https://webaim.org/techniques/skipnav/) if you are interested in learning more.
+
 {{ template:contributors }}
 {{ template:license }}
 
