@@ -39,13 +39,14 @@
 		"s": "npm run s:dev",
 		"readme": "readme generate",
 		"b:lib": "rollup -c rollup.config.build.ts",
+		"ncu": "ncu -u -a && npm update && npm install",
 		"postversion": "npm run readme && npm run b:lib",
 		"publish:patch": "np patch --contents=dist --no-cleanup",
 		"publish:minor": "np minor --contents=dist --no-cleanup",
 		"publish:major": "np major --contents=dist --no-cleanup"
 	},
 	"devDependencies": {
-		"@appnest/web-config": "^0.4.10"
+		"@appnest/web-config": "^0.4.28"
 	},
 	"dependencies": {
 		"@appnest/readme": "^1.2.3"
