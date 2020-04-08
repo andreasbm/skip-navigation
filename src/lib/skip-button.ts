@@ -2,13 +2,26 @@ import { focusAnchor } from "./util";
 import styles from "./skip-button.scss";
 
 /**
+ * Typings required for ShadyCSS.
+ */
+declare global {
+	interface Window {
+		ShadyCSS?: any;
+		ShadyDOM?: any;
+	}
+}
+
+/**
  * Template for the skip button component.
  */
-const template = document.createElement("template");
-template.innerHTML = `
+const $template = document.createElement("template");
+$template.innerHTML = `
 	<style>${styles}</style>
 	<button><slot>Skip to main content</slot></button>
 `;
+
+// Use polyfill only in browsers that lack native Shadow DOM.
+window.ShadyCSS && window.ShadyCSS.prepareTemplateStyles($template, "skip-button");
 
 /**
  * Button that skips to an anchor.
@@ -29,7 +42,7 @@ export class SkipButton extends HTMLElement {
 	constructor () {
 		super();
 		const shadow = this.attachShadow({mode: "open"});
-		shadow.appendChild(template.content.cloneNode(true));
+		shadow.appendChild($template.content.cloneNode(true));
 	}
 
 	/**
@@ -56,3 +69,9 @@ export class SkipButton extends HTMLElement {
 }
 
 customElements.define("skip-button", SkipButton);
+
+declare global {
+	interface HTMLElementTagNameMap {
+		"skip-button": SkipButton;
+	}
+}

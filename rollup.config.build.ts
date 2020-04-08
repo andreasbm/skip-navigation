@@ -73,8 +73,8 @@ export default {
 		...plugins()
 	],
 	external: [
-		...Object.keys(pkg.dependencies),
-		...Object.keys(pkg.devDependencies),
+		...(Object.keys(pkg.dependencies || {})),
+		...(Object.keys(pkg.devDependencies || {})),
 		"tslib"
 	]
 };

@@ -46,3 +46,9 @@ export class SkipAnchor extends HTMLElement {
 }
 
 customElements.define("skip-anchor", SkipAnchor);
+
+declare global {
+	interface HTMLElementTagNameMap {
+		"skip-anchor": SkipAnchor;
+	}
+}
