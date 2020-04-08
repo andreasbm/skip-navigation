@@ -1,6 +1,6 @@
 {
 	"name": "@a11y/skip-navigation",
-	"version": "0.0.8",
+	"version": "0.0.9",
 	"description": "Web component friendly skip navigation functionality.",
 	"types": "index.d.ts",
 	"module": "index.js",
