@@ -1,4 +1,4 @@
-<h1 align="center">@a11y/skip-navigation</h1>
+<!-- ⚠️ This README has been generated from the file(s) "blueprint.md" ⚠️--><h1 align="center">@a11y/skip-navigation</h1>
 <p align="center">
 		<a href="https://npmcharts.com/compare/@a11y/skip-navigation?minimal=true"><img alt="Downloads per month" src="https://img.shields.io/npm/dm/@a11y/skip-navigation.svg" height="20"/></a>
 <a href="https://www.npmjs.com/package/@a11y/skip-navigation"><img alt="NPM Version" src="https://img.shields.io/npm/v/@a11y/skip-navigation.svg" height="20"/></a>
@@ -95,7 +95,19 @@ Button that skips to an anchor.
 
 | Attribute | Type     | Description                                      |
 |-----------|----------|--------------------------------------------------|
-| `for`     | `string` | Optional ID of the anchor that should be navigated to. |
+| `for`     | `String` | Optional ID of the anchor that should be navigated to. |
+
+### Methods
+
+| Method        | Type       | Description         |
+|---------------|------------|---------------------|
+| `focusAnchor` | `(): void` | Focuses the anchor. |
+
+### Slots
+
+| Name | Description                                      |
+|------|--------------------------------------------------|
+|      | Text to the user. Defaults to "Skip to main content" |
 
 ### CSS Custom Properties
 
@@ -108,12 +120,6 @@ Button that skips to an anchor.
 | `--skip-button-padding`       | Padding.       |
 | `--skip-button-transition`    | Transition.    |
 
-### Slots
-
-| Name | Description                                      |
-|------|--------------------------------------------------|
-|      | Text to the user. Defaults to "Skip to main content" |
-
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/colored.png)](#skip-anchor)
 
@@ -125,7 +131,13 @@ Anchor that the skip button can skip to.
 
 | Attribute | Type     | Description                                      |
 |-----------|----------|--------------------------------------------------|
-| `id`      | `string` | Optional ID that should be associated with the anchor when using the skip-button for attribute. |
+| `id`      | `String` | Optional ID that should be associated with the anchor when using the skip-button for attribute. |
+
+### Methods
+
+| Method  | Type       | Description            |
+|---------|------------|------------------------|
+| `focus` | `(): void` | Focuses the component. |
 
 
 
